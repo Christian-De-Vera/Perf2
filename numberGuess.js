@@ -9,7 +9,7 @@ goes first then the while loop might not start if the user guess it correctly at
 
 while (guessNumber != randomNumber) {
     guessNumber = prompt("Guess a number between 1 and 10: "); /*Taking note that it isn't creating a new variable but assigning
-     a new value, it's important that this is inside the loop so it can ask the user again if it guesses the number wrong.*/
+     a new value, it's important that this is inside the loop so it can ask the user again if it guessed the number wrong.*/
 
     if (guessNumber < randomNumber) {
         console.log("Too Low!");
@@ -19,6 +19,6 @@ while (guessNumber != randomNumber) {
         console.log('Correct!')
         break
     } else {
-        console.log('Only input a number.'); // Somehow I need to add this if somehow the user missed input
+        console.log('Only input a number.'); // Somehow I need to add this if the user missed input
     }
 }
