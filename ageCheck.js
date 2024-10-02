@@ -1,4 +1,4 @@
-let age = prompt("Enter your Age: "); //prompts the what's the user Age
+let age = prompt("Enter your Age: "); //prompts what's the user Age
 
 if (age < 13) {
     console.log(`You are a Child.`); //Check if the user Age is less than 13 to determined if the user is a child
